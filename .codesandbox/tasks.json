@@ -1,0 +1,158 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "postbuild": {
+      "name": "postbuild",
+      "command": "yarn postbuild",
+      "runAtStart": false
+    },
+    "build-sitemap": {
+      "name": "build-sitemap",
+      "command": "yarn build-sitemap",
+      "runAtStart": false
+    },
+    "build:analyze": {
+      "name": "build:analyze",
+      "command": "yarn build:analyze",
+      "runAtStart": false
+    },
+    "build:docker": {
+      "name": "build:docker",
+      "command": "yarn build:docker",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true
+    },
+    "docs:i18n": {
+      "name": "docs:i18n",
+      "command": "yarn docs:i18n",
+      "runAtStart": false
+    },
+    "docs:seo": {
+      "name": "docs:seo",
+      "command": "yarn docs:seo",
+      "runAtStart": false
+    },
+    "i18n": {
+      "name": "i18n",
+      "command": "yarn i18n",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint:circular": {
+      "name": "lint:circular",
+      "command": "yarn lint:circular",
+      "runAtStart": false
+    },
+    "lint:md": {
+      "name": "lint:md",
+      "command": "yarn lint:md",
+      "runAtStart": false
+    },
+    "lint:mdx": {
+      "name": "lint:mdx",
+      "command": "yarn lint:mdx",
+      "runAtStart": false
+    },
+    "lint:style": {
+      "name": "lint:style",
+      "command": "yarn lint:style",
+      "runAtStart": false
+    },
+    "lint:ts": {
+      "name": "lint:ts",
+      "command": "yarn lint:ts",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "yarn prepare",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "pull": {
+      "name": "pull",
+      "command": "yarn pull",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "yarn release",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": false
+    },
+    "stylelint": {
+      "name": "stylelint",
+      "command": "yarn stylelint",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "test:coverage": {
+      "name": "test:coverage",
+      "command": "yarn test:coverage",
+      "runAtStart": false
+    },
+    "test:update": {
+      "name": "test:update",
+      "command": "yarn test:update",
+      "runAtStart": false
+    },
+    "type-check": {
+      "name": "type-check",
+      "command": "yarn type-check",
+      "runAtStart": false
+    },
+    "workflow:docs": {
+      "name": "workflow:docs",
+      "command": "yarn workflow:docs",
+      "runAtStart": false
+    },
+    "workflow:i18n": {
+      "name": "workflow:i18n",
+      "command": "yarn workflow:i18n",
+      "runAtStart": false
+    },
+    "workflow:mdx": {
+      "name": "workflow:mdx",
+      "command": "yarn workflow:mdx",
+      "runAtStart": false
+    },
+    "workflow:readme": {
+      "name": "workflow:readme",
+      "command": "yarn workflow:readme",
+      "runAtStart": false
+    }
+  }
+}
